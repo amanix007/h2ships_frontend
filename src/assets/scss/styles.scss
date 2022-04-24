@@ -1,0 +1,41 @@
+// TODO: Refactor all the scss files
+@import "variables";
+@import "positioning";
+@import "common";
+@import "common_items";
+@import "spacing";
+@import "staticpages";
+
+//Component scss
+
+//Home contents
+@import "components/HomeContents/home";
+@import "components/HomeContents/header";
+@import "components/HomeContents/contents";
+
+//About contents
+@import "components/AboutContents/contents";
+
+//News contents
+@import "components/NewsContents/contents";
+
+//Port contents
+@import "components/PortContents/contents";
+
+//Report contents
+@import "components/ReportContents/contents";
+
+//Reg,subscribe,login contents
+@import "components/RegContents/subscribe";
+@import "components/RegContents/join";
+
+//event
+@import "components/EventContents/event";
+
+//auth
+@import "components/AuthContents/auth";
+
+//faq
+@import "components/FaqContents/contents";
+
+@import "components/footer";

@@ -1,0 +1,36 @@
+.tabPanel {
+  padding: 5rem 10rem;
+
+  &__title {
+    margin-bottom: 3rem;
+  }
+
+  .nav-link {
+    color: $black;
+    font-weight: bold;
+    border-radius: 0 !important;
+  }
+  .nav-link.active {
+    background-color: $white !important;
+    color: $primaryColor !important;
+    border-bottom: 2px solid $primaryColor;
+  }
+
+  &__tab-content {
+    padding: 1rem;
+  }
+}
+
+//event card
+
+.eventCard {
+  &__flex {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  &__card {
+    margin-right: 1rem;
+  }
+}

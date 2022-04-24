@@ -1,0 +1,123 @@
+@import "./variables";
+#main_nav + * {
+  margin-top: 138.33px;
+}
+.filter-cont {
+  background: #ffffff;
+  padding: 18px 24px;
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.auth-wrapper {
+  padding: 14px 72px 72px 72px;
+  max-width: 450px;
+  margin: 200px auto 150px auto;
+  .auth-title {
+    font-size: rem(36);
+    margin-bottom: 42px;
+  }
+  .auth-logo {
+    max-width: 155px;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    //background-color: #fff;
+  }
+  .auth-inputs {
+    .MuiFormControl-root {
+      margin-bottom: 16px;
+      .MuiInputBase-root {
+        background-color: #fff;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 3px;
+      }
+    }
+  }
+  .submit-buttons {
+    max-width: 320px;
+    margin: 24px auto;
+    button {
+      font-size: rem(18);
+      padding: 15px 20px;
+    }
+  }
+}
+.filters {
+  .filter-block {
+    margin-bottom: 32px;
+    .title {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.table-view {
+  padding-top: 66px;
+  padding-bottom: 160px;
+  max-width: 1670px;
+  margin: 0 auto;
+  @media (max-width: 767px) {
+    padding-top: 30px;
+  }
+}
+
+.GenericTables {
+  .table-title-search {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    margin-bottom: 1.5rem;
+    @media (max-width: 767px) {
+      margin-top: 2rem;
+    }
+    .title {
+    }
+
+    .search {
+      .SearchOption {
+        margin-top: -1.5rem;
+        .MuiFormGroup-root {
+          .MuiFormControl-root {
+            .MuiOutlinedInput-root {
+              border-radius: 0;
+              .MuiOutlinedInput-input {
+              }
+
+              .MuiOutlinedInput-notchedOutline {
+                .css-hdw1oc {
+                  .notranslate {
+                  }
+                }
+              }
+            }
+          }
+
+          .MuiButton-root {
+            border-radius: 0;
+            .MuiTouchRipple-root {
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .MuiPaper-root {
+    .MuiTable-root {
+      .MuiTableHead-root {
+        .MuiTableRow-root {
+          .MuiTableCell-root {
+          }
+        }
+      }
+
+      .MuiTableBody-root {
+        .MuiTableRow-root {
+          .MuiTableCell-root {
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,206 @@
+//styling of home content
+
+//objective content section
+.objectiveContent {
+  &__title {
+    @media (max-width: 767px) {
+      font-size: 32px;
+    }
+  }
+
+  &__details {
+    @media (max-width: 767px) {
+      font-size: 18px;
+      margin-bottom: 3rem;
+    }
+  }
+  &__videoFrame {
+    background-color: $primaryLightColor;
+    padding: 0.2rem;
+    border-radius: 13px;
+  }
+}
+
+//icon content section
+
+.iconContent {
+  &__title {
+    margin-bottom: 4rem;
+  }
+
+  &__featureIcon img {
+    height: 6.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+//subscribe content section
+
+.subscribeContent {
+  position: relative;
+  background-color: #222;
+  background: url(../../../images/subscribeBg.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  //  margin-bottom: 5rem;
+
+  &__overlay {
+    position: absolute;
+    background-color: $primaryLightColor;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+
+  &__form-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    width: 70%;
+  }
+
+  &__form-content-1 {
+    flex-grow: 1;
+  }
+
+  &__btnSubscribe {
+    margin-left: 1rem;
+    @media (max-width: 767px) {
+      display: block;
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+//social content / follow us section
+
+.socialContent {
+  padding: 3rem 0;
+
+  &__title {
+    margin-bottom: 4rem;
+    @media (max-width: 767px) {
+      font-size: 32px;
+    }
+  }
+
+  &__socialFlex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__socialFlexItem.card {
+    float: none;
+    width: 100% !important;
+    height: 250px !important;
+    border: none;
+  }
+
+  //  &__cardTitle {
+  //    position: relative;
+  //    overflow: hidden;
+  //    display: block;
+  //  }
+
+  //  &__cardTitleSpan {
+  //    vertical-align: baseline;
+  //    display: block;
+  //    position: relative;
+  //    font-size: 22px;
+  //    font-weight: normal;
+
+  //    &:after {
+  //      content: "";
+  //      position: absolute;
+  //      width: 20rem;
+  //      top: 50%;
+  //      margin-left: 2rem;
+  //      border-top: 2px solid $primaryLightColor;
+  //    }
+  //  }
+
+  &__socialCard {
+    &:nth-of-type(1) {
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__socialFrame {
+    height: 300px;
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}
+
+//twitter embed iframe
+
+#brand {
+  display: none !important;
+}
+//twitter embed iframe
+
+//linkedin embed iframe
+
+//linkedin embed iframe
+
+//partners / stakeholders section
+
+.partnersContent {
+  padding: 5rem 5rem;
+  background-color: $gray2;
+
+  @media (max-width: 767px) {
+    padding: 5rem 1rem;
+  }
+
+  &__title {
+    margin-bottom: 4rem;
+    @media (max-width: 767px) {
+      font-size: 32px;
+    }
+  }
+
+  &__logoDiv {
+    //display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    &:nth-of-type(1) {
+      margin-bottom: 4rem;
+      @media (max-width: 767px) {
+        margin-bottom: -2rem;
+      }
+    }
+    &:nth-of-type(2) {
+      margin-bottom: 4rem;
+      @media (max-width: 767px) {
+        margin-bottom: -2rem;
+      }
+    }
+
+    @media (max-width: 767px) {
+      padding: 2rem;
+    }
+  }
+
+  &__partnerLogo img {
+    //width: 100%;
+    //height: 3.5rem;
+    @media (max-width: 767px) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  .owl-dots {
+    display: none;
+  }
+}

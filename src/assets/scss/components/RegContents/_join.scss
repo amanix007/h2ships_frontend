@@ -1,0 +1,28 @@
+.joinForm {
+  &__row {
+    padding: 3rem 5rem 5rem 5rem;
+    justify-content: center;
+    @media (max-width: 767px) {
+      padding: 5rem 0 5rem 0;
+    }
+
+    textarea.form-control {
+      height: calc(5rem + 2px) !important;
+    }
+  }
+
+  &__title {
+    padding: 10rem 0 0 0;
+    //margin-bottom: 3rem;
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  &__title h4 {
+    font-size: 42px;
+    @media (max-width: 767px) {
+      font-size: 28px;
+    }
+  }
+}

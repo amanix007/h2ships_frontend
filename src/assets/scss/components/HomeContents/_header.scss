@@ -1,0 +1,53 @@
+//top menu
+
+.topMenu {
+  //  padding: 0.5rem;
+  &__bgdiv {
+    background-color: $gray1;
+    padding: 0.5rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 767px) {
+      //  display: block;
+      padding: 1.5rem;
+    }
+
+    a {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+//navbar
+.navbar {
+  padding: 25rem 8rem;
+  background-color: $gray3;
+
+  @media (max-width: 767px) {
+    padding: 25rem 2rem;
+  }
+
+  &__logo {
+    width: 7.5rem;
+    margin-top: 1rem;
+  }
+
+  &__nav-link {
+    color: $fontcolor1 !important;
+    transition: all 0.5s ease-in;
+    border-radius: 7px;
+    &:hover {
+      background: $gray5 !important;
+      border-radius: 7px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__dropdown-menu {
+    background-color: $gray3 !important;
+  }
+}
